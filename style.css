@@ -200,7 +200,7 @@
 
 .image {
     position: relative;
-    left: 40px;
+    right: 40px;
     z-index: 1;
 
 }
@@ -255,13 +255,14 @@
     font-size: 18px;
 }
 
-.fourthsubsection{
+.fourthsubsection {
     /* border: 1px solid yellow; */
     width: 400px;
     display: flex;
 }
-.sub-button button{
-     border: 2px solid #283750;
+
+.sub-button button {
+    border: 2px solid #283750;
     padding: 20px 50px 20px 50px;
     margin-top: 30px;
     border-radius: 12px;
@@ -270,57 +271,63 @@
     font-size: 14px;
     /* right: 20px; */
 }
-.fourthsubsection a{
+
+.fourthsubsection a {
     /* border: 2px solid orangered; */
     margin-left: 40px;
     margin-top: 47px;
     font-size: 20px;
     color: black;
- 
+
 }
 
-.fifthbutton button{
+.fifthbutton button {
     padding: 6px 15px 6px 15px;
     margin-top: 100px;
     border-radius: 20px;
     color: #f7f5f2;
-  background-color: #9b0032;
-  border: 2px solid #9b0032 ;
+    background-color: #9b0032;
+    border: 2px solid #9b0032;
 }
 
 
-.greysection{
-    border: 2px solid red;
-    height: 2000px;
+.greysection {
+    /* border: 2px solid red; */
+    height: 900px;
     margin: 01px 40px 0px 40px;
     background-color: #1F2225;
     color: white;
-       display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
 }
-.greysection h1{
+
+.greysection h1 {
     margin-top: 50px;
 }
-.greyp1{
+
+.greyp1 {
     margin-top: 25px;
-            font-size: 18px;
+    font-size: 18px;
 
 }
-.greyp2{
+
+.greyp2 {
     margin-top: 7px;
-        font-size: 18px;
+    font-size: 18px;
 
 }
-.greybuttons{
+
+.greybuttons {
     /* border: 1px solid yellow; */
     width: 400px;
     display: flex;
     /* border: 2px solid yellow; */
 }
-.greybtn1 button{
-     border: 2px solid white;
+
+.greybtn1 button {
+    border: 2px solid white;
     padding: 20px 50px 20px 50px;
     margin-top: 35px;
     border-radius: 12px;
@@ -330,38 +337,292 @@
     color: white;
     /* right: 20px; */
 }
-.greybuttons a{
+
+.greybuttons a {
     /* border: 2px solid orangered; */
     margin-left: 40px;
     margin-top: 50px;
     font-size: 20px;
     color: white;
- 
+
 }
 
-.greypics{
+.greypics {
 
     /* border: 2px solid yellow; */
     height: 600px;
     display: flex;
 }
-.greypic1{
+
+.greypic1 {
     margin-top: 160px;
     position: relative;
     left: 150px;
     z-index: 1;
 }
 
-.greypic2{
+.greypic2 {
     margin-top: 110px;
     position: relative;
     left: 30px;
     z-index: 2;
 }
 
-.greypic3{
+.greypic3 {
     margin-top: 130px;
     position: relative;
     right: 90px;
     z-index: 3;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px 0px 55px 0px;
+    font-size: 20px;
+
+}
+
+
+.gray-section {
+    background-color: #1f2225;
+    padding: 60px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.gray-section h2 {
+    margin-bottom: 40px;
+}
+
+
+.cards-container {
+    display: flex;
+    gap: 40px;
+}
+
+.cards-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #f7f5f2;
+    padding: 16px;
+    border-radius: 14px;
+    transition: transform 0.3s ease;
+    margin: 0px 30px;
+
+    /* padding:0px 30px 0px 30px; */
+
+}
+
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+
+.card-text h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-size: 25px;
+}
+
+.card-text p {
+    font-size: 14px;
+    color: grey;
+    font-size: 20px;
+    text-align: left;
+}
+
+.card-text a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.card-text a:hover {
+    text-decoration: underline;
+}
+
+.cardsection3 {
+    /* border: 2px solid red; */
+    height: 1000px;
+    margin-top: 60px;
+    background-color: #f7f5f2;
+}
+
+.cardsection3-h1 {
+    text-align: center;
+    margin: 60px;
+    font-size: 44px;
+    /* border: 2px solid yellow; */
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.card1 {
+    /* border: 2px solid red; */
+    margin: 20px;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 40px;
+    border-radius: 8px;
+    background-color: white;
+
+
+}
+
+.card2 {
+    /* border: 2px solid red; */
+    margin: 20px;
+    text-align: left;
+    font-size: 12px;
+    border-radius: 8px;
+    background-color: white;
+
+
+}
+
+.card3 {
+    /* border: 2px solid red; */
+    margin: 20px;
+    text-align: left;
+    font-size: 12px;
+    border-radius: 8px;
+    background-color: white;
+
+}
+
+.main img {
+    border-radius: 5px;
+}
+
+.main h1 {
+    margin-top: 30px;
+}
+
+.main p {
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.main a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 16px;
+    color: black;
+    font-size: 20px;
+}
+.heading3{
+    color:#0061fe;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 40px;
+}
+
+
+.middlepara {
+    /* border: 2px solid red; */
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.para1{
+    color: black;
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: left;
+
+}
+.para2{
+    color: black;
+    margin-top: 2px;
+    font-size: 18px;
+        text-align: left;
+
+
+}
+
+.para3{
+   
+    color: black;
+    margin-top: 5px;
+    font-size: 18px;
+        text-align: left;
+        /* border: 2px solid yellow; */
+        
+
+
+}
+
+
+
+.db-footer {
+  background-color: #17181a;
+  padding: 60px 0 30px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.db-footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 80px;
+  padding: 0 20px;
+}
+
+.db-col h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.db-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.db-col ul li {
+  margin-bottom: 10px;
+}
+
+.db-col ul li a {
+  text-decoration: none;
+   color: white;
+  font-size: 14px;
+}
+
+.db-col ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.db-footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 13px;
+  color: white;
 }
